@@ -1,4 +1,4 @@
-#define AUDIT_MAX 64
+#define AUDIT_MAX  64
 #define AUDIT_NAME 128
 
 struct audit_record {
