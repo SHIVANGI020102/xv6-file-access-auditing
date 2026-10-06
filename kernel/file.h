@@ -1,5 +1,6 @@
 struct file {
   enum { FD_NONE, FD_PIPE, FD_INODE, FD_DEVICE } type;
+  char name[128];
   int ref; // reference count
   char readable;
   char writable;
